@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  
+<head>
+    <title>Team Section </title>
+  <style media="screen">
+
+   *
+   /* CSS PART */
+   {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Exo;
+   }
+   @font-face {
+     font-family: Exo;
+     src: url(./fonts/Exo2.0-Medium.otf);
+   }
+   .main{
+     width: 100%;
+     height: 75vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #074c9bfb;
+   }
+   .profile-card{
+     position: relative;
+     font-family: sans-serif;
+     width: 720px;
+     height: 250px;
+     background: #fff;
+     padding: 20px;
+     border-radius: 20%;
+     box-shadow: 0 0 22px #3336;
+     transition: .10s;
+     margin: 0 25px;
+   }
+   .profile-card:hover{
+     border-radius: 20px;
+     height: 300px;
+   }
+   .profile-card .img{
+     position: relative;
+     width: 100%;
+     height: 105%;
+     transition: .6s;
+     z-index: 99;
+   }
+   .profile-card:hover .img{
+     transform: translateY(-85px);
+   }
+   .img img{
+     width: 105%;
+     border-radius: 60%;
+     box-shadow: 0 0 22px rgba(190, 187, 187, 0.4);
+     transition: .5s;
+   }
+   .profile-card:hover img{
+     border-radius: 10px;
+   }
+   .caption{
+     text-align: center;
+     transform: translateY(-160px);
+     opacity: 0;
+     transition: .3s;
+   }
+   .profile-card:hover .caption{
+     opacity: 5;
+   }
+   .caption h3{
+     font-size: 20px;
+     font-family: sans-serif;
+   }
+   .caption p{
+     font-size: 25px;
+     color: #0c52a1;
+     font-family: sans-serif;
+     margin: 10px 0 9px 0;
+   }
+   .caption .social-links a{
+     color: #333;
+     margin-right: 5px;
+     font-size: 25px;
+     transition: .3s;
+   }
+   .social-links a:hover{
+     color: #0c52a1;
+   }
+
+  </style>
+<!-- HTML CODE -->
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <!-- Navbar content -->
+</nav>
+ 
+<header>
+  <img src="\photo\mits.jpg" alt="">
+</header>
+
+</head>
+<style> 
+    .team{
+        
+        text-align: center;
+        background-color: #0c52a1;
+    
+    }
+    </style>
+<h1 class="team"> Our Team Members</h1>
+    
+<body>
+    <div class="main">
+        <div class="profile-card">
+            <div class="img">
+                <img src="\photo\7..jpg">
+            </div>
+            <div class="caption">
+                <h3>Amit Singh Rajawat</h3>
+                <h5>AI Department</h5>
+                <p>Backend Developer</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="img">
+                <img src="\photo\7..jpg">
+            </div>
+            <div class="caption">
+                <h3>Anurag Dudey</h3>
+                <h5>CSE Department</h5>
+                <p>Backend Developer</p>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  
+                    
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+              <img src="\photo\7..jpg">
+          </div>
+          <div class="caption">
+              <h3>Rishbah Nayak</h3>
+              <h5>CSE Department</h5>
+              <p>Front End Developer</p>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                 
+              </div>
+          </div>
+      </div>
+      <div class="profile-card">
+        <div class="img">
+            <img src="\photo\7..jpg">
+        </div>
+        <div class="caption">
+            <h3>Paras Shrivastava</h3>
+            <h5>IO Department</h5>
+            <p>Front End Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                
+            </div>
+        </div>
+    </div>
+      <div class="profile-card">
+        <div class="img">
+            <img src="\photo\7..jpg">
+        </div>
+        <div class="caption">
+            <h3>Yashvardhan Yadav</h3>
+            <h5>IO Department</h5>
+            <p>Front End Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+               
+            </div>
+        </div>
+    </div>
+        <div class="profile-card">
+            <div class="img">
+                <img src="\photo\7..jpg">
+            </div>
+            <div class="caption">
+                <h3>Shikhar Gupta </h3>
+                <h5>ECE Department</h5>
+                <p>Full Stact Developer</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shikhar-gupta-5b5801206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7FKMkORaTrWLgTUqgftGIw%3D%3D"><i class="fab fa-linkedin"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body> 
+<style> 
+.nec2022{
+    
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+</style>
+<footer>
+    <div class="nec2022">
+        <p> ©2022 Created By <b> Software Development Club, MITS</b> </p>
+    </div>
+</footer>
+
+</html>
